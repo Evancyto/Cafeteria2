@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Pedido de Cafetería</h1>
+
+<form action="/recibirPedido" method="POST" id="formulario">
+
+    <label for="nombre">Nombre del cliente:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="producto">Producto:</label>
+    <select id="producto" name="producto" required>
+        <option value="">Selecciona un producto</option>
+        <option value="Cafe">Café</option>
+        <option value="Capuchino">Capuchino</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Te">Té</option>
+    </select>
+
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+    <label>Tamaño de bebida:</label>
+
+    <div class="opciones">
+
+        <input type="radio" id="chico" name="tamano" value="Chico" required>
+        <label for="chico">Chico</label>
+
+        <input type="radio" id="mediano" name="tamano" value="Mediano">
+        <label for="mediano">Mediano</label>
+
+        <input type="radio" id="grande" name="tamano" value="Grande">
+        <label for="grande">Grande</label>
+
+    </div>
+
+    <div class="llevar">
+        <input type="checkbox" id="llevar" name="llevar" value="Si">
+        <label for="llevar">Pedido para llevar</label>
+    </div>
+
+    <label for="observaciones">Observaciones:</label>
+    <textarea id="observaciones" name="observaciones"
+    placeholder="Escribe alguna observación"></textarea>
+
+    <div class="botones">
+        <button type="submit">Registrar</button>
+        <button type="reset">Limpiar</button>
+    </div>
+
+</form>
+
+</body>
+</html>

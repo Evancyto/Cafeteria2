@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen del pedido</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Resumen del pedido</h1>
+
+<form action="/pedido" method="POST">
+
+    <label>Nombre del cliente:</label>
+    <p id="nombre"></p>
+    <input type="hidden" name="nombre" id="nombreInput">
+
+    <label>Correo electrónico:</label>
+    <p id="correo"></p>
+    <input type="hidden" name="correo" id="correoInput">
+
+    <label>Producto:</label>
+    <p id="producto"></p>
+    <input type="hidden" name="producto" id="productoInput">
+
+    <label>Cantidad:</label>
+    <p id="cantidad"></p>
+    <input type="hidden" name="cantidad" id="cantidadInput">
+
+    <label>Tamaño de bebida:</label>
+    <p id="tamano"></p>
+    <input type="hidden" name="tamano" id="tamanoInput">
+
+    <label>Pedido para llevar:</label>
+    <p id="llevar"></p>
+    <input type="hidden" name="llevar" id="llevarInput">
+
+    <label>Observaciones:</label>
+    <p id="observaciones"></p>
+    <input type="hidden" name="observaciones" id="observacionesInput">
+
+    <div class="botones">
+        <button type="submit">Confirmar pedido</button>
+        <a href="/formulario.html">Regresar</a>
+    </div>
+
+</form>
+
+<script src="/scriptR.js"></script>
+
+</body>
+</html>

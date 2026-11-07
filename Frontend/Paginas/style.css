@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5d8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #5c3d2e;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+form {
+    background-color: #fff8ef;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #8b6f5a;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #4a3428;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #8b6f5a;
+    font-size: 14px;
+}
+
+textarea {
+    height: 110px;
+}
+
+.opciones {
+    margin-top: 10px;
+}
+
+.opciones input {
+    width: auto;
+}
+
+.opciones label {
+    display: inline;
+    margin-right: 15px;
+}
+
+.llevar {
+    margin-top: 15px;
+}
+
+.llevar input {
+    width: auto;
+}
+
+.llevar label {
+    display: inline;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    padding: 8px 18px;
+    margin: 5px;
+    border: 1px solid #5c3d2e;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:first-child {
+    background-color: #8b6f5a;
+    color: white;
+}
+
+button:last-child {
+    background-color: #ddd;
+    color: #333;
+}
+
+#mensaje {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    color: #4a3428;
+}
+
+a {
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 5px;
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #5c3d2e;
+    text-decoration: none;
+}
+
